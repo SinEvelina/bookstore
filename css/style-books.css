@@ -1,0 +1,126 @@
+body {
+    background-color: #fff;
+    /* font-family: 'Krona One', sans-serif; */
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+}
+
+.main-container {
+    display: flex;
+    margin: 50px 30px;
+}
+
+/**************************** NAV-ASIDE ******/
+.nav-wrapper {
+    width: 30%;
+    padding-left: 100px;
+}
+
+h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 77px;
+}
+
+nav > ul > li {
+    font-family: 'Krona One', sans-serif;
+    font-size: 27px;
+    line-height: 31px;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+}
+
+nav > ul > li + li {
+    margin-top: 40px;
+}
+
+/**************************** BOOKS ******/
+.books-wrapper {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 110px;
+}
+
+.book {
+    text-align: center;
+    margin: 20px;
+}
+
+.book__img {
+    width: 190px;
+    height: 200px;
+    background: #c4c4c4;
+    margin-bottom: 15px;
+
+}
+
+.book__name {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.book__author {
+    font-size: 22px;
+    line-height: 26px;
+    color: #8C8686;
+    margin-bottom: 13px;
+}
+
+/**************************** FOOTER ******/
+footer {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    background-color: #F4DDDD;
+}
+
+.footer__nav > ul {
+    width: 700px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer__nav > ul > li {
+    font-size: 20px;
+    line-height: 36px;
+
+}
+
+.footer__nav > ul > li > a {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Krona One', sans-serif;
+    color: #B0B8BC;
+}
+
+.socials img {
+    display: block;
+}
+
+.socials {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-top: 75px;
+    padding-bottom: 60px;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #B0B8BC;
+}
